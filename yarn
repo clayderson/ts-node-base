@@ -1,0 +1,6 @@
+#!/bin/bash
+docker run --rm --interactive --tty \
+  -u "$(id -u "${USER}")":"$(id -g "${USER}")" \
+  -v "${PWD}":/app \
+  -w /app \
+  node yarn "$@"
