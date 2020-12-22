@@ -1,13 +1,12 @@
 {
-  "include": ["src/**/*"],
-  "exclude": ["jest.config.ts"],
+  "include": ["./src/**/*"],
+  "exclude": ["./jest.config.ts"],
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
     "lib": ["es6"],
     "types": ["node", "@types/jest"],
     "typeRoots": ["./node_modules/@types"],
-    "outDir": "./dist",
     "rootDir": "./src",
     "strict": true,
     "removeComments": true,
