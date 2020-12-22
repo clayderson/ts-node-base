@@ -8,7 +8,7 @@ Você pode usar este projeto como uma base bem limpa e flexível para iniciar se
 - ESLint, Babel e TypeScript já estão configurados e prontos para uso na maioria dos projetos;
 - Para os testes, escolhemos o Jest e, portanto, também está previamente configurado.
 
-###### Inicie sua aplicação dessa forma
+#### Iniciando a aplicação
 
 ```bash
 docker-compose up
